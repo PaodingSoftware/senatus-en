@@ -1,6 +1,5 @@
 ---
 description: Conduct discussion on the current topic and record it
-argument-hint: [Discussion content]
 ---
 
 **User Input**: $ARGUMENTS

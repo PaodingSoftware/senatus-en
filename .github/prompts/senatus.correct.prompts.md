@@ -1,6 +1,5 @@
 ---
 description: Fix project issues based on user feedback and record them
-argument-hint: [Issue description]
 ---
 
 **User Input**: $ARGUMENTS

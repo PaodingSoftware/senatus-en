@@ -1,6 +1,5 @@
 ---
 description: Generate executable task list based on the current topic
-argument-hint: [Considerations]
 ---
 
 **User Input**: $ARGUMENTS

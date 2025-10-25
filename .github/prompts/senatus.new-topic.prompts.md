@@ -1,6 +1,5 @@
 ---
 description: Create a new discussion topic
-argument-hint: [Topic description]
 ---
 
 **User Input**: $ARGUMENTS
