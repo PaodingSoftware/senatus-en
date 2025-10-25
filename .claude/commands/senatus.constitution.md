@@ -1,19 +1,19 @@
 ---
-description: Create the project's constitution file
+description: Create the project's global constitutional constraint file
 ---
 
-## Execution Process
+## Execution Flow
 
 1. **Check Constitution File**:
    - Check if `specify/constitution.md` exists
    - If it exists, warn that it will be overwritten
 
 2. **Analyze Project Status**:
-   - Analyze the project structure and tech stack
+   - Analyze project structure and technology stack
    - Identify existing code standards and development patterns
 
-3. **Generate Constraints**:
-   - Organize constraints by category headings and list format
+3. **Generate Constraint Clauses**:
+   - Organize constraints in categorized headings and project list format
    - Common categories: Technical Constraints, Quality Constraints, Security Constraints, Business Constraints
 
 4. **Create Constitution File**:
@@ -22,10 +22,10 @@ description: Create the project's constitution file
      * `{{PROJECT_NAME}}` → Project name
      * `{{CONSTITUTION_VERSION}}` → v1.0.0
      * `{{LAST_AMENDED_DATE}}` → Creation date (YYYY-MM-DD)
-     * `{{CONSTRAINTS_CONTENT}}` → Generated constraints
+     * `{{CONSTRAINTS_CONTENT}}` → Generated constraint clauses
      * `{{VERSION_HISTORY}}` → Initial version history record
-   - Generate the target file `specify/constitution.md` (overwrite if it exists)
+   - Generate the target file `specify/constitution.md` (overwrite if the file already exists)
 
 ## Output Results
 - Constitution file path
-- Summary of main constraints
+- Overview of main constraint clauses

@@ -1,8 +1,8 @@
 # Task Plan
 
-> **Important: This file is only for maintaining the task list. Do not add other content.**
+> **Important Note: This file is only for maintaining the task list; do not add other content.**
 
-## Associated Topic
+## Related Topic
 {{DISCUSS_FILE_PATH}}
 
 ## Task List

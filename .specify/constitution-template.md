@@ -2,12 +2,12 @@
 
 ## General Principles
 
-This constitution defines the constraints and principles that must be followed during development of the {{PROJECT_NAME}} project. All discussions, research, planning, and tasks must comply with these constraints.
+This constitution defines the global constraints and principles that must be followed during the development of the {{PROJECT_NAME}} project. All discussions, research, plans, and tasks must comply with these constitutional clauses.
 
-## Constraints
+## Constitutional Clauses
 <!--
-Format requirements for constraints:
-### Category Heading
+Format requirements for constitutional clauses:
+### Category Title
 - Constraint item 1
 - Constraint item 2
 - Constraint item 3
@@ -20,12 +20,12 @@ Example:
 
 {{CONSTRAINTS_CONTENT}}
 
-## Updates
+## Constitution Updates
 
-When updating this file:
+When updating this file, you need to:
 1. Increment the version number
 2. Update the last amended date
-3. Add an update record to the version history below
+3. Add an update record in the version history below
 
 ---
 **Version**: {{CONSTITUTION_VERSION}} | **Last Amended**: {{LAST_AMENDED_DATE}}

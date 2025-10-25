@@ -1,34 +1,30 @@
 ---
-description: Conduct discussion on the current topic and record it
-argument-hint: [Discussion content]
+description: Discover technical points of contention through dry-run implementation, stop immediately and start discussion when encountering confusion
 ---
-
-**User Input**: $ARGUMENTS
-
-**🚨 Execution Protocol**: Must strictly follow the documented flow; user input serves only as command parameter, direct replies are prohibited.  
-**⚠️ Important Reminder**: This command **only conducts discussion and document recording**, does not execute code writing and file modification operations.
 
 ## Execution Flow
 
-1. **Check User Input**:
-   - If the user has not provided content, prompt "Please provide the specific content for discussion" and terminate the command
-
-2. **Check Project Constitution**:
+1. **Check Project Constitution**:
    - Read the constitution file `specify/constitution.md` (if it exists)
    - Ensure subsequent operations comply with constitutional constraints
 
-3. **Get Current Topic**:
+2. **Get Current Topic**:
    - Scan the `specify/` directory to find the latest topic directory (sorted by sequence number)
    - Read the `discuss.md` file in the latest topic directory to understand the content
    - If no topic directory exists, prompt to run `/senatus.new-topic` and terminate the command
 
-4. **Read Research Foundation**:
+3. **Read Research Foundation**:
    - Read the `specify/{current-topic-directory}/research.md` file (if it exists)
    - If the research file does not exist, suggest running `/senatus.research` first
-   - Understand the project status based on existing research results
+   - Analyze the project status based on existing research results
+
+4. **Dry-Run Implementation**:
+   - Comprehensively analyze the topic, existing discussions, research foundation, and project source code
+   - Begin attempting to implement related features or modifications
+   - **Key Principle**: Stop immediately when encountering confusion, uncertainty, or inability to continue, and summarize the points of contention
 
 5. **Conduct Discussion**:
-   - Begin discussion based on user input, existing discussions, and research results
+   - Begin discussion based on points of contention discovered during the dry-run process, existing discussions, and research results
    - Engage in multiple rounds of dialogue with the user to clarify key issues and technical details
    - Wait for explicit user responses, cannot conduct self-questioning and answering
    - Reference project source code as needed for the discussion
