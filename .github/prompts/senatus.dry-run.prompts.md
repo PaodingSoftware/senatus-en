@@ -20,7 +20,7 @@ description: Discover technical points of contention through dry-run implementat
 
 4. **Dry-Run Implementation**:
    - Comprehensively analyze the topic, existing discussions, research foundation, and project source code
-   - Begin attempting to implement related features or modifications
+   - Mentally simulate the process of implementing related features or modifications, **for design verification only, strictly prohibit actual modification of project files**
    - **Key Principle**: Stop immediately when encountering confusion, uncertainty, or inability to continue, and summarize the points of contention
 
 5. **Conduct Discussion**:
